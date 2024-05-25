@@ -4,8 +4,19 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+
+//Given a roman numeral, convert it to an integer.
+//Input: s = "III"
+//Output: 3
+//Explanation: III = 3.
+
 public class RomanToInteger {
 	
+	/**
+	 * 
+	 * @param str
+	 * @return
+	 */
 	private static int romanToInt(String str) {
 		
 		Map<Character, Integer> romanMap = new HashMap<>();
@@ -40,6 +51,10 @@ public class RomanToInteger {
 		
 	}
 
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
