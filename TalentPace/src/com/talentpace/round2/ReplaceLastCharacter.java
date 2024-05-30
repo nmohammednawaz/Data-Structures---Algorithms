@@ -37,7 +37,6 @@ public class ReplaceLastCharacter {
 		String result = getReplacedString(str);
 		System.out.println(result);
 		
-
 		sc.close();
 
 	}
